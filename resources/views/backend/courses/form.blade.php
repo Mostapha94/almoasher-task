@@ -155,9 +155,6 @@ $(document).ready(function () {
             },
             hours: {
                 required: true,
-            },
-            image: {
-                required: true,
             }
         }
     });

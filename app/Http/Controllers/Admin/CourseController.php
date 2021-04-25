@@ -105,7 +105,7 @@ class CourseController extends Controller
             'name'=>'required|max:150',
             'category_id'=>'required',
             'description'=>'required',
-            'image'  =>   'required|mimes:jpeg,png,jpg,bmp|max:2048',
+            'image'  =>   'mimes:jpeg,png,jpg,bmp|max:2048',
             'rating'=>'required',
             'views'=>'required',
             'levels'=>'required',
